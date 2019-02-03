@@ -1,7 +1,7 @@
 {
   "main.css": "/portfolio-react/static/css/main.4cfc921b.chunk.css",
-  "main.js": "/portfolio-react/static/js/main.d4423095.chunk.js",
-  "main.js.map": "/portfolio-react/static/js/main.d4423095.chunk.js.map",
+  "main.js": "/portfolio-react/static/js/main.cf157394.chunk.js",
+  "main.js.map": "/portfolio-react/static/js/main.cf157394.chunk.js.map",
   "static/js/1.b67a47bc.chunk.js": "/portfolio-react/static/js/1.b67a47bc.chunk.js",
   "static/js/1.b67a47bc.chunk.js.map": "/portfolio-react/static/js/1.b67a47bc.chunk.js.map",
   "runtime~main.js": "/portfolio-react/static/js/runtime~main.9338e8a0.js",
@@ -17,9 +17,9 @@
   "static/media/landing-deliwin.png": "/portfolio-react/static/media/landing-deliwin.e4267d62.png",
   "static/media/game-of-life.png": "/portfolio-react/static/media/game-of-life.1d345d47.png",
   "static/media/ha-landing.png": "/portfolio-react/static/media/ha-landing.75418e02.png",
-  "static/media/index.css": "/portfolio-react/static/media/timeburnerbold.32e66b5b.ttf",
+  "static/media/index.css": "/portfolio-react/static/media/timeburnernormal.53c45bc3.ttf",
   "static/css/main.4cfc921b.chunk.css.map": "/portfolio-react/static/css/main.4cfc921b.chunk.css.map",
   "index.html": "/portfolio-react/index.html",
-  "precache-manifest.bbd499c95d72c6f81eda86d6479e1026.js": "/portfolio-react/precache-manifest.bbd499c95d72c6f81eda86d6479e1026.js",
+  "precache-manifest.33e19fd6ed1a915440e3065c7dd0964d.js": "/portfolio-react/precache-manifest.33e19fd6ed1a915440e3065c7dd0964d.js",
   "service-worker.js": "/portfolio-react/service-worker.js"
 }
