@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <Provider store={createStore(rootReducers)}>
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio-react">
       <App />
     </BrowserRouter>
   </Provider>
