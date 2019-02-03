@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "cf157394d79c8870c40f",
-    "url": "/portfolio-react/static/css/main.4cfc921b.chunk.css"
+    "revision": "930e24a5eaeff34ef56c",
+    "url": "/portfolio-react/static/css/main.555cd1c8.chunk.css"
   },
   {
-    "revision": "cf157394d79c8870c40f",
-    "url": "/portfolio-react/static/js/main.cf157394.chunk.js"
+    "revision": "930e24a5eaeff34ef56c",
+    "url": "/portfolio-react/static/js/main.930e24a5.chunk.js"
   },
   {
-    "revision": "b67a47bcd858e19b92f2",
-    "url": "/portfolio-react/static/js/1.b67a47bc.chunk.js"
+    "revision": "ebd80edbf6e3b03928a0",
+    "url": "/portfolio-react/static/js/1.ebd80edb.chunk.js"
   },
   {
     "revision": "9338e8a022e42c6bc02f",
@@ -64,15 +64,15 @@ self.__precacheManifest = [
     "url": "/portfolio-react/static/media/abel-regular.7e3d2a92.ttf"
   },
   {
-    "revision": "32e66b5b650461435d04fb49cdd092f8",
-    "url": "/portfolio-react/static/media/timeburnerbold.32e66b5b.ttf"
-  },
-  {
     "revision": "53c45bc3d1786fd79f705b667a74fec5",
     "url": "/portfolio-react/static/media/timeburnernormal.53c45bc3.ttf"
   },
   {
-    "revision": "ff3cb11e6e000924768f48eb4f9e7a0c",
+    "revision": "32e66b5b650461435d04fb49cdd092f8",
+    "url": "/portfolio-react/static/media/timeburnerbold.32e66b5b.ttf"
+  },
+  {
+    "revision": "52ba0b5bad57fd36ebe7147b6e28bbc9",
     "url": "/portfolio-react/index.html"
   }
 ];
