@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolio-react/static/media/timeburnernormal.53c45bc3.ttf"
   },
   {
-    "revision": "8e768f975d6f0bd6569e1e0407524e53",
+    "revision": "33effc5eb3e1815473c3115506f73cf9",
     "url": "/portfolio-react/index.html"
   }
 ];
