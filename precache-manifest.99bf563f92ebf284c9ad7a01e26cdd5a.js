@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/portfolio-react/static/media/abel-regular.7e3d2a92.ttf"
   },
   {
-    "revision": "53c45bc3d1786fd79f705b667a74fec5",
-    "url": "/portfolio-react/static/media/timeburnernormal.53c45bc3.ttf"
-  },
-  {
     "revision": "32e66b5b650461435d04fb49cdd092f8",
     "url": "/portfolio-react/static/media/timeburnerbold.32e66b5b.ttf"
+  },
+  {
+    "revision": "53c45bc3d1786fd79f705b667a74fec5",
+    "url": "/portfolio-react/static/media/timeburnernormal.53c45bc3.ttf"
   },
   {
     "revision": "a24df60477531f3c349d25c0b7b992a6",
