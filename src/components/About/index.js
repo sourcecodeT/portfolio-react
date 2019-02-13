@@ -217,14 +217,7 @@ function About(props) {
             . There, I taught myself the basics of HTML, CSS and JavaScript. I
             also created some of my first projects: A
             <TLink
-              href="https://pokedex-dlv.firebaseapp.com/"
-              type="poke"
-              content="Pokedex"
-              page="about"
-            />
-            and the
-            <TLink
-              href="https://game-of-life-dlv.firebaseapp.com/"
+              href="https://sourcecodet.github.io/react-game-of-life/"
               type="gol"
               content="Game of life."
               page="about"
@@ -235,33 +228,25 @@ function About(props) {
           </p>
           <span className="about_br_span about_span">{"</p> <p>"}</span>
           <p className="about_p">
-            Later that same year, I attended
-            <TLink href="" type="dev" content="DevMountain" page="about" />, an
-            intense 13 week coding bootcamp. While there, I started learning
-            fullstack web development, specifically with ReactJS. I spent 900+
-            hours learning new technologies and developing personal projects.
+            After that, I learn myself more about web teachnology. I started
+            learning fullstack web development, specifically with ReactJS. I
+            spent many hours learning programming teachnich and developing
+            personal projects.
           </p>
           <span className="about_br_span about_span">{"</p> <p>"}</span>
           <p className="about_p">
-            After graduating from the bootcamp and receiving my Javascript Web
-            Development
+            After graduating from the freecodecamp and receiving my Javascript
+            Web Development
             <TLink
-              href="https://www.youracclaim.com/badges/a02aa461-981c-4ca2-a195-1df270e5716f"
+              href="https://www.freecodecamp.org/certification/sourcecodet/legacy-front-end"
               type="cert"
-              content="Badge"
+              content="FreeCodeCamp"
               page="about"
             />
-            , I joined a startup company named
-            <TLink
-              href="https://vibix-web.firebaseapp.com/"
-              type="vibix"
-              content="Vibix"
-              page="about"
-            />
-            . We worked on developing shopify apps to automate{"users'daily"}
-            time-consuming tasks. I was solely responsible to build the web
-            presence of the company by utilizing the latest technology
-            (ReactJS/Redux/Cloud Functions/Firebase).
+            , I joined a company named VNsolution. We worked on inter front-end
+            web developer creates apps to automate{"users'daily"}
+            time-consuming tasks. I was responsible to build the UI of project
+            by utilizing the latest technology (ReactJS).
           </p>
           <span className="about_br_span about_span">{"</p> <p>"}</span>
           <p className="about_p">
@@ -299,9 +284,8 @@ function About(props) {
 
   function renderSocialMedia() {
     const socialMediaItems = [
-      { name: "instagram", href: "https://www.instagram.com/f.dlv" },
-      { name: "facebook", href: "https://www.facebook.com/fernandodlv32" },
-      { name: "linkedin", href: "https://www.linkedin.com/in/fernandodlv" }
+      { name: "instagram", href: "https://www.instagram.com/dao_ngoc_thanh/" },
+      { name: "facebook", href: "https://www.facebook.com/thanh.daongoc.33" }
     ];
     return socialMediaItems.map(item => renderSocialMediaItem(item));
   }

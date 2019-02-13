@@ -21,63 +21,69 @@ function Navigator(props) {
   ];
 
   useWhyDidYouUpdate("Navigator", props);
-  useEffect(
-    () => {
-      TweenMax.to(`.fa-${comp}`, .4, { color: '#59bd8e' });
-      TweenMax.to(`.p-${comp}`, .4, { color: '#59bd8e', opacity: 0 }, '-=.4');
-      TweenMax.to('.nav_target', .4, { opacity: comp === 'home' ? 1 : .7 });
-    },
-    []
-  );
+  useEffect(() => {
+    TweenMax.to(`.fa-${comp}`, 0.4, { color: "#59bd8e" });
+    TweenMax.to(`.p-${comp}`, 0.4, { color: "#59bd8e", opacity: 0 }, "-=.4");
+    TweenMax.to(".nav_target", 0.4, { opacity: comp === "home" ? 1 : 0.7 });
+  }, []);
 
-  useEffect(
-    () => {
-      const moutedComp = props.comp;
-      TweenMax.to(`.fa-lg`, .4, { color: '#42474b' })
-      TweenMax.to(`.fa-${moutedComp}`, .4, { color: '#59bd8e' });
-      TweenMax.to(`.p-${moutedComp}`, .4, { color: '#59bd8e', opacity: 0 })
-      TweenMax.to('.nav_target', .4, { opacity: moutedComp === 'home' ? 1 : .7 })
-      setComp(moutedComp);
-    },
-    [props.comp]
-  );
+  useEffect(() => {
+    const moutedComp = props.comp;
+    TweenMax.to(`.fa-lg`, 0.4, { color: "#42474b" });
+    TweenMax.to(`.fa-${moutedComp}`, 0.4, { color: "#59bd8e" });
+    TweenMax.to(`.p-${moutedComp}`, 0.4, { color: "#59bd8e", opacity: 0 });
+    TweenMax.to(".nav_target", 0.4, {
+      opacity: moutedComp === "home" ? 1 : 0.7
+    });
+    setComp(moutedComp);
+  }, [props.comp]);
 
   function enterNavButtons(type, bool) {
     if (bool) {
-      TweenMax.to(`.fa-${type}`, .4, { color: '#59bd8e' })
+      TweenMax.to(`.fa-${type}`, 0.4, { color: "#59bd8e" });
     } else {
-      TweenMax.to(`.fa-${type}`, .4, { color: '#181818' })
-      TweenMax.to(`.p-${type}`, .4, { color: '#59bd8e', opacity: 1 }, '-=.4')
+      TweenMax.to(`.fa-${type}`, 0.4, { color: "#181818" });
+      TweenMax.to(`.p-${type}`, 0.4, { color: "#59bd8e", opacity: 1 }, "-=.4");
     }
   }
 
   function leaveNavButtons(type, bool) {
     if (bool) {
-      TweenMax.to(`.fa-${type}`, .4, { color: '#42474b' })
+      TweenMax.to(`.fa-${type}`, 0.4, { color: "#42474b" });
     } else {
-      TweenMax.to(`.fa-${type}`, .4, { color: type !== comp ? '#42474b' : '#59bd8e' })
-      TweenMax.to(`.p-${type}`, .4, { color: type !== comp ? '#181818' : '#59bd8e', opacity: 0 }, '-=.4')
+      TweenMax.to(`.fa-${type}`, 0.4, {
+        color: type !== comp ? "#42474b" : "#59bd8e"
+      });
+      TweenMax.to(
+        `.p-${type}`,
+        0.4,
+        { color: type !== comp ? "#181818" : "#59bd8e", opacity: 0 },
+        "-=.4"
+      );
     }
   }
 
   function enterMobileNav() {
-    TweenMax.to(`.fa-bars`, .4, { color: '#59bd8e' })
+    TweenMax.to(`.fa-bars`, 0.4, { color: "#59bd8e" });
   }
 
   function leaveMobileNav() {
-    TweenMax.to(`.fa-bars`, .4, { color: mobileNav ? '#ffffff' : '#42474b' })
+    TweenMax.to(`.fa-bars`, 0.4, { color: mobileNav ? "#ffffff" : "#42474b" });
   }
 
   function enterNavIcon() {
-    TweenMax.to(`.nav_target`, .3, { opacity: 1 })
+    TweenMax.to(`.nav_target`, 0.3, { opacity: 1 });
   }
 
   function leaveNavIcon() {
-    TweenMax.to(`.nav_target`, .3, { opacity: comp === 'home' ? 1 : .7 })
+    TweenMax.to(`.nav_target`, 0.3, { opacity: comp === "home" ? 1 : 0.7 });
   }
 
   function toggleMobileNav() {
-    TweenMax.to('.mobile_nav_buttons', .4, { left: mobileNav ? '100%' : '0px', opacity: mobileNav ? 0 : 1 });
+    TweenMax.to(".mobile_nav_buttons", 0.4, {
+      left: mobileNav ? "100%" : "0px",
+      opacity: mobileNav ? 0 : 1
+    });
     setMobileNav(prevState => !prevState);
   }
 
@@ -92,7 +98,7 @@ function Navigator(props) {
 
   function render() {
     return (
-      <main className={'Nav'}>
+      <main className={"Nav"}>
         {renderLogo()}
         <section className="nav_buttons">
           {navButtons.map(btn => renderBtn(btn))}
@@ -118,7 +124,7 @@ function Navigator(props) {
       <Link
         onMouseEnter={enterNavIcon}
         onMouseLeave={leaveNavIcon}
-        onClick={(e) => animateComp(e, "/")}
+        onClick={e => animateComp(e, "/")}
         className="nav_link nav_target"
         to="/"
       >
@@ -133,7 +139,7 @@ function Navigator(props) {
     return (
       <Link
         key={`btn-${btn.title}`}
-        onClick={(e) => animateComp(e, btn)}
+        onClick={e => animateComp(e, btn)}
         className="nav_link"
         to={btn.route}
       >
@@ -182,30 +188,30 @@ function Navigator(props) {
   return render();
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   return {
     comp: state.nav.comp
-  }
+  };
 };
 
-const mapDispatchToProps = (dispatch) => {
+const mapDispatchToProps = dispatch => {
   return {
-    setAnimatedComp: (route) => {
+    setAnimatedComp: route => {
       dispatch({
         type: actions.SET_ANIMATED_COMP,
         value: { status: true, route }
       });
     },
-    setMoutedComp: (value) => {
+    setMoutedComp: value => {
       dispatch({
         type: actions.SET_MOUNTED_COMP,
         value
       });
     }
-  }
+  };
 };
 
 export default connect(
   mapStateToProps,
-  mapDispatchToProps,
+  mapDispatchToProps
 )(Navigator);
