@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "930e24a5eaeff34ef56c",
-    "url": "/portfolio-react/static/css/main.555cd1c8.chunk.css"
+    "revision": "83e5f7e212fcab21f705",
+    "url": "/portfolio-react/static/css/main.a31dc1e0.chunk.css"
   },
   {
-    "revision": "930e24a5eaeff34ef56c",
-    "url": "/portfolio-react/static/js/main.930e24a5.chunk.js"
+    "revision": "83e5f7e212fcab21f705",
+    "url": "/portfolio-react/static/js/main.83e5f7e2.chunk.js"
   },
   {
     "revision": "ebd80edbf6e3b03928a0",
@@ -28,36 +28,36 @@ self.__precacheManifest = [
     "url": "/portfolio-react/static/media/f_marker.0da6a83f.png"
   },
   {
-    "revision": "c7e5861b80822efe6b02976a113ddd4c",
-    "url": "/portfolio-react/static/media/landing-vibix-scheduler.c7e5861b.png"
+    "revision": "882c980fd9c79171f18c9fa802a17f2f",
+    "url": "/portfolio-react/static/media/calculator-logo.882c980f.jpeg"
   },
   {
-    "revision": "39be89b21bbaa8b11daeef61cd03856a",
-    "url": "/portfolio-react/static/media/landing-vibix-consignment.39be89b2.png"
+    "revision": "130425bb595aa47f64b62b22e3fc1139",
+    "url": "/portfolio-react/static/media/twitchtv-logo.130425bb.jpeg"
   },
   {
-    "revision": "7289e5efc7250bf2d60a79b08e2624e1",
-    "url": "/portfolio-react/static/media/landing-vibix-web.7289e5ef.png"
+    "revision": "49b46d5121f8d5d6b6d1019700c4b294",
+    "url": "/portfolio-react/static/media/simon-game-logo.49b46d51.jpeg"
   },
   {
-    "revision": "a4835157d99892077980d796152bd387",
-    "url": "/portfolio-react/static/media/landing_ifunny.a4835157.png"
+    "revision": "61ff9126aaabaf0546a119b4af4e3528",
+    "url": "/portfolio-react/static/media/wiki-api-logo.61ff9126.jpeg"
   },
   {
-    "revision": "60a30948416e82a4a198db14a3a16224",
-    "url": "/portfolio-react/static/media/landing-quiltback.60a30948.png"
+    "revision": "d8343427cdaae190ae8c7131bf6a6e0a",
+    "url": "/portfolio-react/static/media/random-quote-logo.d8343427.jpeg"
   },
   {
-    "revision": "e4267d6236d87136b31818d6c79ad376",
-    "url": "/portfolio-react/static/media/landing-deliwin.e4267d62.png"
+    "revision": "f1010700695bba08afe55c95cf884bec",
+    "url": "/portfolio-react/static/media/weather-app-logo.f1010700.jpeg"
   },
   {
     "revision": "1d345d47fd52ae942947f939b876d709",
     "url": "/portfolio-react/static/media/game-of-life.1d345d47.png"
   },
   {
-    "revision": "75418e0296630492d96c646fa381e241",
-    "url": "/portfolio-react/static/media/ha-landing.75418e02.png"
+    "revision": "a217a0f9aaff7020f2085ebc6f65e6d7",
+    "url": "/portfolio-react/static/media/tic-tac-toe-logo.a217a0f9.jpeg"
   },
   {
     "revision": "7e3d2a92473b14dea460b9b87b4639bf",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolio-react/static/media/timeburnerbold.32e66b5b.ttf"
   },
   {
-    "revision": "52ba0b5bad57fd36ebe7147b6e28bbc9",
+    "revision": "a24df60477531f3c349d25c0b7b992a6",
     "url": "/portfolio-react/index.html"
   }
 ];
